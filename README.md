@@ -1,7 +1,7 @@
 ## Keeley Byerly Portfolio
 This portfolio was created with materialize and react. Check out my most recent projects.
 
-[https://peaceful-crag-20340.herokuapp.com/](React Portfolio)
+[https://peaceful-crag-20340.herokuapp.com/](https://peaceful-crag-20340.herokuapp.com/)
 
 # MIT License
 
