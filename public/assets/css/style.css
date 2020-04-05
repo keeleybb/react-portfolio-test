@@ -97,7 +97,7 @@ footer.page-footer {
 /*Media Queries*/
 @media only screen and (max-width: 1400px) {
   .height-adj {
-    min-height: 250px;
+    min-height: 150px;
   }
 }
 
