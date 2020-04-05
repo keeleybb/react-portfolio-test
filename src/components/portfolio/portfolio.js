@@ -63,6 +63,7 @@ function Portfolio() {
     <div className="container">
       <div className="section">
         <div className="row">
+          <a name="portfolio">&nbsp;</a>
           {
             portfolio.map((item) => (
               <div className="col s12 m6 l4">
@@ -91,7 +92,6 @@ function Portfolio() {
               </div>
             ))
           }
-          <a name="portfolio">&nbsp;</a>
         </div>
       </div>
     </div>
