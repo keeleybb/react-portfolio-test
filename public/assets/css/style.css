@@ -1,0 +1,167 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  font-family: "Courier Prime", monospace;
+  color: #000;
+}
+.photo-bg {
+  background-image: url(../images/powell-vh.jpg);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 85vh
+}
+.dark-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+.height-adj {
+  min-height: 200px;
+}
+.dark-bg p,
+.dark-bg h4 {
+  color: #fff;
+}
+.dark-bg p {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+a {
+  color: #26a69a;
+}
+h5 {
+  padding: 0px 0px 5px 0px !important;
+  margin: 0px !important;
+}
+label {
+  font-size: 16px;
+  color: #000 !important;
+}
+.card-content {
+  padding: 10px;
+}
+.logo-container {
+  width: 300px;
+}
+.card-pd {
+  padding: 0px !important;
+  margin: 0px !important;
+  vertical-align: bottom;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: 50vh;
+  color: rgba(255, 255, 255, 0.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+/* Card Styles */
+.card-link {
+  color: #26a69a !important;
+  font-weight: bold;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 1400px) {
+  .height-adj {
+    min-height: 250px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .photo-bg {
+    background-image: url(../images/powell-lg.jpg);
+  }
+}
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+@media only screen and (max-width: 955px) {
+  .photo-bg {
+    background-image: url(../images/powell-md.jpg);
+  }
+  /* .height-adj {
+    min-height: 275px;
+  } */
+}
+
+@media only screen and (max-width: 705px) {
+  /* .height-adj {
+    min-height: 350px;
+  } */
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .brand-logo {
+    font-size: 1.5rem !important;
+  }
+  .photo-bg {
+    background-image: url(../images/powell-small.jpg);
+  }
+  /* .height-adj {
+    height:100%;
+  } */
+}
+@media only screen and (max-width: 400px) {
+  .photo-bg {
+    background-image: url(../images/powell-xsmall.jpg);
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .photo-bg {
+    background-image: url(../images/powell-lg.jpg);
+    background-size: 100% 100%;
+  }
+}
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .photo-bg {
+    background-image: url(../images/powell-xsmall.jpg);
+    background-size: 100% 100%;
+  }
+}
